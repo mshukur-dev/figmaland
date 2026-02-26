@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./src/output.css">
 </head>
+
 <body>
-    <header class="bg-[blue] py-[30px] max-mb:py-[25px]">
+    <header class="absolute w-[100%] top-0 py-[30px] max-mb:py-[25px]">
         <div class="container">
             <nav class="flex items-center justify-between text-[#fff] gap-[16px]">
                 <div>
@@ -19,12 +21,35 @@
                     <a href="#">About</a>
                     <a href="#">Contact</a>
                 </div>
-                <button class="btn text-[#fff] border-1 w-[150px] h-[50px] border-[#fff] shadow-[0px_0px_10px_#00000026]">Sign up</button>
+                <button
+                    class="btn text-[#fff] border-1 w-[150px] h-[50px] border-[#fff] shadow-[0px_0px_10px_#00000026]">Sign
+                    up</button>
                 <div class="view">
                     <img src="./src/img/burger.png" alt="">
                 </div>
             </nav>
         </div>
     </header>
+    <main>
+        <section class="hero_bg pt-[300px] py-[80px] max-md:pt-[200px]">
+            <div class="container">
+                <div class="text-[#fff] max-w-[650px] m-auto text-center flex flex-col gap-[20px]">
+                    <h1 class="#FFFFFF text-[55px] font-black leading-[60px] max-mb:text-[46px]">
+                        Find the Best Solution
+                        in Seconds
+                    </h1>
+                    <p class="font-bold mb-[50px]">If debugging is the process of removing software bugs.</p>
+                    <div class="flex items-center justify-center gap-[13px] flex-wrap max-mb:flex-col">
+                        <button class="btn w-[180px] h-[50px] text-[#112D57] bg-[#fff] shadow-[0_0_10px_#00000026]">get started</button>
+                        <button class="btn w-[180px] h-[50px] text-[#fff] border-1 border-[white] shadow-[0_0_10px_#00000026]">try for free</button>
+                    </div>
+                </div>
+                <div class="flex justify-center mt-[80px]">
+                    <img src="./src/img/hero.png" alt="">
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
+
 </html>
